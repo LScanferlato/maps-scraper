@@ -5,6 +5,6 @@ WORKDIR /app
 COPY script.py ./
 
 # Installa le dipendenze necessarie
-RUN pip install --no-cache-dir requests beautifulsoup4 lxml mysql-connector-python
+RUN pip install --no-cache-dir requests beautifulsoup4 lxml mysql-connector-python configparser
 
 ENTRYPOINT ["python", "script.py"]
