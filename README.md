@@ -1,3 +1,6 @@
+# Aggiunto Dockerhub
+https://hub.docker.com/r/lscanferlato/
+
 # maps-scraper
 Servizio geocoding Nominatim
 Esempio uso
